@@ -3,9 +3,7 @@ class Solution:
         iterations=iterations
         learning_rate=learning_rate
         x=init
-
         for i in range(iterations):
-    
             gradient=2*x
             x = x - learning_rate * gradient
         return round(x,5)
